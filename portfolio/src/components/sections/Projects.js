@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Project from '../Project';
 
 function Projects({ isActive }){
     return (
@@ -6,7 +7,9 @@ function Projects({ isActive }){
         {isActive ? (
           <div>projects</div>
         ) : (
-          <div></div>
+          <div>
+            <Project />
+          </div>
         )}
       </div>
     )

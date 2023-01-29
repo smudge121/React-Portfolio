@@ -1,3 +1,32 @@
 .App {
   text-align: center;
 }
+
+.proj-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.proj-image {
+  transition: .5s ease;
+  opacity: 1;
+  text-align: center;
+}
+
+.project:hover .proj-image {
+  opacity: 0.3;
+}
+
+.project:hover .proj-overlay {
+  opacity: 1;
+}
+
+.proj-overlay-text {
+  background-color:dimgrey;
+}
+
+.icon {
+  width: 24px;
+}
+
