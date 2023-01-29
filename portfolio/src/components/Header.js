@@ -16,7 +16,7 @@ function Header(){
     return (
 <div>
 <div>
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light">
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item">
@@ -63,9 +63,11 @@ function Header(){
   </div>
 </nav>
 </div>
-
-<Navigation aboutMe={aboutMe} contact={contact} 
+<div className='page-body'>
+  <Navigation aboutMe={aboutMe} contact={contact} 
     project={project} resume={resume} />
+</div>
+
 </div>
     )
 }

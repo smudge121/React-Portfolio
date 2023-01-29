@@ -7,7 +7,7 @@ function Footer(){
 
     return (
 <div>
-<footer className="bg-light text-center text-lg-start fixed-bottom">
+<footer className="text-center text-lg-start fixed-bottom">
   <div className="container p-3 text-center">
     <div className="row d-flex justify-content-around">
       <a className='col-4' href="https://github.com/smudge121">git</a>
