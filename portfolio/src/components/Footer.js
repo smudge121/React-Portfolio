@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import gitIcon from "../assets/icons/github-mark.png"
+import mailIcon from "../assets/icons/icons8-gmail-logo-48.png"
+import linkedIcon from "../assets/icons/LI-In-Bug.png"
 
 function Footer(){
     const testStyle = {
@@ -10,15 +13,10 @@ function Footer(){
 <footer className="text-center text-lg-start fixed-bottom">
   <div className="container p-3 text-center">
     <div className="row d-flex justify-content-around">
-      <a className='col-4' href="https://github.com/smudge121">git</a>
-      <a className='col-4' href="mailto:jaretishii17@gmail.com">Email</a>
-      <a className='col-4' href="https://www.linkedin.com/in/jaret-ishii/">LinkedIn</a>
+      <div className='col-4'><img className='icon' href="https://github.com/smudge121" src={gitIcon} /></div>
+      <div className='col-4'><img className='icon' href="mailto:jaretishii17@gmail.com" src={mailIcon} /></div>
+      <div className='col-4'><img className='icon' href="https://www.linkedin.com/in/jaret-ishii/" src={linkedIcon} /></div>
     </div>
-  </div>
-
-  <div className="text-center p-3" style={testStyle}>
-    © 2020 Copyright:
-    <a className="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
 </footer>
 </div>
