@@ -17,16 +17,16 @@ function Project({ img, title, git, url, subtitle }){
                     ">
                     <div className='d-flex align-items-center justify-content-center align-content-center flex-column container proj-overlay-text'>
                     <div className="row w-100">
-                        <h4 className="text-stroke text-white pb-5 col-9">
+                        <a className="text-stroke text-white pb-5 col-9 oswald h2 a-over link-custom" href={url} >
                             {title}
-                        </h4>
+                        </a>
                         <div className="col-3">
-                            <img className="icon" src={gitIcon} />
+                            <a href={git}><img className="icon" src={gitIcon} /></a>
                         </div>
                         
                     </div>
                     <div className="card-block pt-3 row">
-                        <p className="card-link text-white col">{subtitle}</p>
+                        <p className="card-link text-white col dancing ft-3">{subtitle}</p>
                     </div>
                     </div>
                 </div>
