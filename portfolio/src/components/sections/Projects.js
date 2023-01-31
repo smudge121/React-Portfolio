@@ -7,6 +7,7 @@ function Projects({ isActive }){
         <div>
         {isActive ? (
         <div className='container'>
+          <div className='row'><h2 className='aboreto display-2 border-bottom border-3 border-dark'>Projects</h2></div>
           <div className='row'>
             {
               _projects.map(function(proj, index) {

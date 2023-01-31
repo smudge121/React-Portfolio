@@ -7,12 +7,6 @@ function Header(){
     const [project, setProject] = useState(false);
     const [resume, setResume] = useState(false);
 
-
-    const handleClick = () => {
-        setAboutMe(!aboutMe);
-
-    }
-
     return (
 <div>
 <div>
@@ -20,7 +14,7 @@ function Header(){
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <a className={`nav-link ${aboutMe ? "disabled" : ""}`} href="#" onClick={
+        <a className={`nav-link aboreto fs-3 ${aboutMe ? "disabled" : ""}`} href="#" onClick={
           () => {
             setAboutMe(!aboutMe);
             if (contact) setContact(!contact);
@@ -30,7 +24,7 @@ function Header(){
           }>About Me</a>
       </li>
       <li className="nav-item">
-        <a className={`nav-link ${project ? "disabled" : ""}`} href="#" onClick={
+        <a className={`nav-link aboreto fs-3 ${project ? "disabled" : ""}`} href="#" onClick={
           () => {
             setProject(!project);
             if (contact) setContact(!contact);
@@ -40,7 +34,7 @@ function Header(){
           }>Projects</a>
       </li>
       <li className="nav-item">
-        <a className={`nav-link ${contact ? "disabled" : ""}`} href="#" onClick={
+        <a className={`nav-link aboreto fs-3 ${contact ? "disabled" : ""}`} href="#" onClick={
           () => {
             setContact(!contact);
             if (aboutMe) setAboutMe(!aboutMe);
@@ -49,8 +43,8 @@ function Header(){
           }
           }>Contact Me</a>
       </li>
-      <li className="nav-item">
-        <a className={`nav-link ${resume ? "disabled" : ""}`} href="#" onClick={
+      <li className="nav-item ml-5">
+        <a className={`nav-link aboreto fs-3 ${resume ? "disabled" : ""}`} href="#" onClick={
           () => {
             setResume(!resume);
             if (contact) setContact(!contact);

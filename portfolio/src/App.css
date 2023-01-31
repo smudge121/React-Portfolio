@@ -76,3 +76,26 @@
   padding-left: 75px;
 }
 
+.nav-link:hover {
+  border-bottom: 3;
+  opacity: 0.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dark-grey {
+  color: darkslategray;
+}
+
+.a-over {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.link-custom:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
