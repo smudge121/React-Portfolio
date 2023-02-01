@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 //import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
   return (

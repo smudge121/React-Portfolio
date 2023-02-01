@@ -12,7 +12,7 @@ function Projects({ isActive }){
             {
               _projects.map(function(proj, index) {
                 return (
-                  <div className='col-6 pt-5' key={index}>
+                  <div className='col-md-6 col-12 pt-5' key={index}>
                     <Project img={proj.img} git={proj.git} 
                     title={proj.title} url={proj.url} subtitle={proj.subtitle} />
                   </div>
