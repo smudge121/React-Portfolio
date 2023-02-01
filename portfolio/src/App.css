@@ -44,6 +44,8 @@
   transition: .5s ease;
   opacity: 1;
   text-align: center;
+  height: 300px;
+  object-fit: cover;
   /* max-width: 50%; */
 }
 
@@ -100,5 +102,24 @@ ul {
   opacity: 0.5;
   text-decoration: underline;
   font-size-adjust: 0.8;
+}
+
+.form-control-custom:focus, .form-control-custom:active, .form-control-custom {
+  background: transparent;
+  background-color: none;
+  border: 1;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-custom {
+  background: transparent;
+  color: darkslategray;
+  border-color: darkgray;
+}
+.btn-custom:hover {
+  font-size-adjust: 0.8;
+  color: darkgray;
+  transform: scale(0.9);
 }
 
