@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.a4e703b3.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.05d4bf5e.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.05d4bf5e.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.9fc683b2.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.9fc683b2.js.map",
+    "static/css/2.f26e749f.chunk.css": "/React-Portfolio/static/css/2.f26e749f.chunk.css",
+    "static/js/2.51a39244.chunk.js": "/React-Portfolio/static/js/2.51a39244.chunk.js",
+    "static/js/2.51a39244.chunk.js.map": "/React-Portfolio/static/js/2.51a39244.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.f26e749f.chunk.css.map": "/React-Portfolio/static/css/2.f26e749f.chunk.css.map",
+    "static/css/main.a4e703b3.chunk.css.map": "/React-Portfolio/static/css/main.a4e703b3.chunk.css.map",
+    "static/js/2.51a39244.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.51a39244.chunk.js.LICENSE.txt",
+    "static/media/JIshii.3e54bdf5.jpg": "/React-Portfolio/static/media/JIshii.3e54bdf5.jpg",
+    "static/media/anime_ecommerce.20ecc102.png": "/React-Portfolio/static/media/anime_ecommerce.20ecc102.png",
+    "static/media/friend_finder.fb562bd9.png": "/React-Portfolio/static/media/friend_finder.fb562bd9.png",
+    "static/media/note-taker.9df69e01.png": "/React-Portfolio/static/media/note-taker.9df69e01.png",
+    "static/media/App.css": "/React-Portfolio/static/media/pexels-henry-&-co-2341290.38012790.jpg",
+    "static/media/wayfarer.3a0fdaec.png": "/React-Portfolio/static/media/wayfarer.3a0fdaec.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fc683b2.js",
+    "static/css/2.f26e749f.chunk.css",
+    "static/js/2.51a39244.chunk.js",
+    "static/css/main.a4e703b3.chunk.css",
+    "static/js/main.05d4bf5e.chunk.js"
+  ]
+}
